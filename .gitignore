@@ -1,0 +1,7 @@
+.gradle
+.idea
+/gradle
+/history
+/target
+/build
+/bin
