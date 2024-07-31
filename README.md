@@ -10,9 +10,8 @@
 git config --global user.name "JefferBarrera"
 git config --global user.email "jeffer.barrera.c@gmail.com"
 ```
-
+---
 ## Comandos git
-
 - Inicializar repositorio ``git init``
 - Agregar archivos al repositorio para darles seguimiento ``git add .``
 - Realizar un commit de los archivos previamente agregados con mensaje personalizado ``git commit -m "Solucion Reto Sophos"``
@@ -20,17 +19,13 @@ git config --global user.email "jeffer.barrera.c@gmail.com"
 - Configurar el repositorio remoto con la url dada por Github ``git remote add origin https://github.com/JefferBarrera/saucedemo.git``
 - Subir cambios al repositorio remoto ``git push -u origin main``
 
-***Con estos pasos podra desde inicializar hasta subir cambios a un repositorio remoto***
+***Con estos pasos se podra desde inicializar un repositorio local hasta subir cambios a un repositorio remoto***
 
-___
+## Subir cambios luego de estar inicializado el repositorio local
 
-**Comandos agrupados para ejecucion en bloque**
-
+- Para lograr esto solo basta con seguir los siguientes comandos
 ```bash
-git init
 git add .
-git commit -m "Solucion Reto Sophos"
-git branch -M main
-git remote add origin https://github.com/JefferBarrera/saucedemo.git
-git push -u origin main
+git commit -m "Solucion Reto Sophos - Read.me actualizado"
+git push
 ```
